@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent=new Intent(MainActivity.this,SecondActivity.class);
             startActivity(intent);
         }else{
+            Login.setError("Incorrect username and password");
 
             counter--;
 
